@@ -1,6 +1,6 @@
 # Suggested Spikes and Resources for Praktikos MVP User Stories
 
-## Story 1 - MVP: Basic RPA Capabilities
+## Story 1 - MVP: Basic Python Capabilities
 
 ### Spike 1: Learning basic Python programming
 - **Resources:**
@@ -38,19 +38,47 @@
   - PyTesseract documentation: https://pypi.org/project/pytesseract/
   - Optical Character Recognition (OCR) in Python by OpenCV: https://learnopencv.com/optical-character-recognition-ocr-using-tesseract-and-opencv/
 
-## Story 5 - MVP: Audio Recording and Playback
-
-### Spike 1: Learning audio recording and playback with Python
+### Spike 2: Improving OCR accuracy with preprocessing techniques
 - **Resources:**
-  - PyAudio documentation: https://people.csail.mit.edu/hubert/pyaudio/docs/
-  - Audio I/O with PyAudio tutorial: https://realpython.com/playing-and-recording-sound-python/
-  - Speech Recognition library for Python: https://pypi.org/project/SpeechRecognition/
+  - Preprocessing techniques for OCR tutorial: https://www.pyimagesearch.com/2020/08/03/preprocessing-techniques-for-image-classification-and-ocr-with-opencv-and-python/
+  - OpenCV image processing tutorials: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html
+  - Image Enhancement in Python tutorial: https://towardsdatascience.com/image-enhancement-in-python-91b453eef53f
 
-## Story 6 - MVP: SMS and Voice Notification
-
-### Spike 1: Learning SMS and voice notification APIs and libraries
+### Spike 3: Implementing a machine learning-based OCR system
 - **Resources:**
-  - Twilio documentation: https://www.twilio.com/docs
-  - Sending SMS messages with Python and Twilio tutorial: https://www.twilio.com/blog/send-sms-python-using-twilio
-  - Twilio Programmable Voice documentation: https://www.twilio.com/docs/voice
-  - Twilio Programmable Voice Quickstart tutorial: https://www.twilio.
+  - Introduction to machine learning for OCR tutorial: https://towardsdatascience.com/introduction-to-machine-learning-for-ocr-ed1e33f57d1e
+  - Training a custom OCR model with Tesseract tutorial: https://nanonets.com/blog/train-ocr-model-with-tesseract/
+  - Text recognition in natural scenes with deep learning tutorial: https://towardsdatascience.com/text-recognition-in-natural-scenes-with-deep-learning-23fd4b4c4e4d
+
+### Spike 4: Evaluating OCR performance and metrics
+- **Resources:**
+  - Measuring OCR performance tutorial: https://nanonets.com/blog/how-to-evaluate-ocr-performance/
+  - Precision, Recall, and F1 score tutorial: https://towardsdatascience.com/precision-recall-and-f1-score-explained-6e93ce67b14d
+  - Confusion matrix tutorial: https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
+ 
+## Story 7 - MVP: Project Structure and Design Patterns
+
+### Spike 1: Learning best practices for project structure and organization
+- **Resources:**
+  - Python project structure guide: https://docs.python-guide.org/writing/structure/
+  - Cookiecutter Python template: https://github.com/cookiecutter/cookiecutter-pypackage
+  - Building a Python project with CI/CD tutorial: https://realpython.com/python-continuous-integration/
+
+### Spike 2: Implementing the Factory design pattern for creating configurable actions
+- **Resources:**
+  - Factory design pattern tutorial: https://refactoring.guru/design-patterns/factory-method/python/example
+  - Implementing the Factory pattern in Python: https://realpython.com/factory-method-python/
+  - Applying the Factory pattern in a real-world Python project tutorial: https://www.codementor.io/@shivama205/python-design-pattern-7j3qbcyah
+
+### Spike 3: Implementing the Strategy design pattern for flow designer actions
+- **Resources:**
+  - Strategy design pattern tutorial: https://refactoring.guru/design-patterns/strategy/python/example
+  - Applying the Strategy pattern in Python: https://sourcemaking.com/design_patterns/strategy/python/1
+  - Implementing the Strategy pattern in Python tutorial: https://medium.com/@sheikhsajid/design-patterns-in-python-part-2-the-strategy-pattern-54b7c59bec91
+
+### Spike 4: Implementing the Observer design pattern for error handling and logging
+- **Resources:**
+  - Observer design pattern tutorial: https://refactoring.guru/design-patterns/observer/python/example
+  - Applying the Observer pattern in Python: https://sourcemaking.com/design_patterns/observer/python/1
+  - Implementing the Observer pattern in Python tutorial: https://medium.com/@sheikhsajid/design-patterns-in-python-part-3-the-observer-pattern-8e5d1223b174
+
