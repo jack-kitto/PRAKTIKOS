@@ -14,7 +14,7 @@
   - Automate the Boring Stuff with Python book: https://automatetheboringstuff.com/2e/chapter20/
   - PyAutoGUI tutorial by RealPython: https://realpython.com/pyautogui-python-automate-mouse-keyboard/
 
-## Story 2 - MVP: UI Element Detection
+## MVP: UI Element Detection
 
 ### Spike 1: Learning image processing and pattern recognition for UI element detection
 - **Resources:**
@@ -22,7 +22,7 @@
   - OpenCV template matching tutorial: https://docs.opencv.org/master/d4/dc6/tutorial_py_template_matching.html
   - Image recognition with Python and OpenCV tutorial: https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/
 
-## Story 3 - MVP: Error Handling and Logging
+## MVP: Error Handling and Logging
 
 ### Spike 1: Learning error handling and logging in Python
 - **Resources:**
@@ -30,7 +30,7 @@
   - Python logging documentation: https://docs.python.org/3/howto/logging.html
   - Logging in Python by RealPython: https://realpython.com/python-logging/
 
-## Story 4 - MVP: Optical Character Recognition
+## MVP: Optical Character Recognition
 
 ### Spike 1: Learning OCR techniques and libraries for text extraction from images
 - **Resources:**
@@ -56,7 +56,7 @@
   - Precision, Recall, and F1 score tutorial: https://towardsdatascience.com/precision-recall-and-f1-score-explained-6e93ce67b14d
   - Confusion matrix tutorial: https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
  
-## Story 7 - MVP: Project Structure and Design Patterns
+## MVP: Project Structure and Design Patterns
 
 ### Spike 1: Learning best practices for project structure and organization
 - **Resources:**
