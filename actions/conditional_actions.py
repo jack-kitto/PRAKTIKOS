@@ -2,7 +2,7 @@
 # composite node that can contain other actions and evaluates conditions before executing them. 
 # The file may also contain helper functions or constants needed to perform the action.
 
-from ../flow/composite_action import CompositeAction
+from flow.composite_action import CompositeAction
 
 class ConditionalAction(CompositeAction):
     def __init__(self, name, description, conditions, actions):
