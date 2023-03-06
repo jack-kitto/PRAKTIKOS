@@ -1,7 +1,7 @@
 import time
 import pyautogui
 
-class MouseActions:
+class MouseAction:
     def __init__(self):
         pass
 

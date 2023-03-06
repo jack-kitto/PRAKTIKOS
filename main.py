@@ -1,8 +1,8 @@
 from flow.flow_designer import FlowDesigner
-from actions.keyboard_actions import KeyboardActions
-from actions.mouse_actions import MouseActions
-from actions.conditional_actions import ConditionalAction
-from actions.custom_actions import CustomAction
+from keyboard_action import KeyboardActions
+from mouse_action import MouseActions
+from conditional_action import ConditionalAction
+from custom_action import CustomAction
 from utils.error_handler import ErrorHandler
 from utils.logger import Logger
 

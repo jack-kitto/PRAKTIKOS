@@ -1,7 +1,7 @@
 import time
 import pyautogui
 
-class KeyboardActions:
+class KeyboardAction:
     def __init__(self):
         pass
 
