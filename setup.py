@@ -18,7 +18,7 @@ setup(
         ]
     },
     license='MIT',
-    author='Your Name',
+    author='Jack Kitto',
     author_email='jack.kitto@gmail.com',
-    description='Praktikos: Python-based RPA framework'
+    description='PRAKTIKOS: Python-based RPA framework'
 )

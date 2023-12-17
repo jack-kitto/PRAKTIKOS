@@ -1,0 +1,10 @@
+actions:
+- description: This is action 1
+  id: '1'
+  name: Action 1
+- description: This is action 2
+  id: '2'
+  name: Action 2
+description: This is a flow made in a yaml file
+id: 8733b466-4eab-40e2-9673-8f127e6b1de5
+name: YAML FLOW

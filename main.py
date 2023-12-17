@@ -1,13 +1,10 @@
-from flow.flow_designer import FlowDesigner
-from keyboard_action import KeyboardActions
-from mouse_action import MouseActions
-from conditional_action import ConditionalAction
-from custom_action import CustomAction
-from utils.error_handler import ErrorHandler
-from utils.logger import Logger
+from core.flow_designer import FlowDesigner
+from actions.action_repository import action_repository
+from core.flow_repository import flow_repository
 
 # Initialize objects for different components of PRAKTIKOS
-flow_designer = FlowDesigner()
+flow_repository.load_flows_from_yaml()
+flow_designer = FlowDesigner(action_repository, flow_repository)
 
 # Main function for running PRAKTIKOS
 def main():
