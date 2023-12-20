@@ -1,5 +1,5 @@
 class Action:
-    def __init__(self, name, description, id,):
+    def __init__(self, name, description, id):
         self.id = str(id)
         self.name = str(name)
         self.description = str(description)
@@ -18,8 +18,10 @@ class Action:
         'id': self.id,
         'name': self.name,
         'description': self.description,
-        'context': self.context
         }
+
+    def configure(self):
+        print("Configure base action")
 
     @classmethod
     def from_dict(cls, data):
