@@ -1,0 +1,15 @@
+actions:
+- description: This will get the mouse coords
+  id: '2'
+  mouse_x: 758
+  mouse_y: 581
+  name: Move Mouse
+- button: left
+  description: This will get the click the mouse
+  id: '3'
+  interval: 1
+  name: Mouse Click
+  num: 96
+description: tests mouse clicking
+id: 7bff9bf8-984a-4ce7-a1f3-2136a3905c2e
+name: Count The Clicks!

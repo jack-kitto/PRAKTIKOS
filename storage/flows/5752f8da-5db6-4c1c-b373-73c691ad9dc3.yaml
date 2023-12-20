@@ -1,0 +1,9 @@
+actions:
+- description: This will get the mouse coords
+  id: '2'
+  mouse_x: 223
+  mouse_y: 173
+  name: Move Mouse
+description: asdf
+id: 5752f8da-5db6-4c1c-b373-73c691ad9dc3
+name: asdf
