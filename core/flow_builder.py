@@ -41,6 +41,7 @@ class FlowBuilder:
 
         # Define a helper function to capture the current value of action
         def add_action_callback(action):
+            action.configure()
             self.actions.append(action)
 
         for action in self.action_repository.actions:
