@@ -1,10 +1,12 @@
 from actions.action import Action
-from actions.get_mouse_coords_action import GetMouseCoordinatesAction
+from actions.move_mouse_action import MoveMouseAction
+from actions.mouse_click_action import MouseClickAction
 
 
 class ActionFactory:
     action_names = {
-        'Get Mouse Coords': GetMouseCoordinatesAction,
+        'Move Mouse': MoveMouseAction,
+        'Mouse Click': MouseClickAction,
         # Add more action types as needed
     }
 
