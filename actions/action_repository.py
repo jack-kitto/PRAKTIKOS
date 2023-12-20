@@ -3,7 +3,6 @@ from typing import List
 import yaml
 from actions.action_factory import ActionFactory
 from actions.action import Action
-from actions.get_mouse_coords_action import GetMouseCoordinatesAction
 from core.ui import Menu
 
 
