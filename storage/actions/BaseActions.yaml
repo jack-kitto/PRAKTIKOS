@@ -6,5 +6,9 @@ actions:
 - context: {}
   description: This will get the mouse coords
   id: '2'
-  name: Get Mouse Coords
+  name: Move Mouse
+- context: {}
+  description: This will get the click the mouse
+  id: '3'
+  name: Mouse Click
 
