@@ -1,0 +1,12 @@
+actions:
+- context: {}
+  description: This is a base action and does nothing
+  id: '1'
+  name: Action
+- context: {}
+  description: This will get the mouse coords
+  id: '2'
+  name: Get Mouse Coords
+description: asdfsdfasdfadsf
+id: 449c2a50-f2d9-4b5c-b1a6-747e68c39214
+name: sdfad
