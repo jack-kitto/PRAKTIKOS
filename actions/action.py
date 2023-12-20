@@ -1,8 +1,9 @@
 class Action:
-    def __init__(self, name, description, id):
+    def __init__(self, name, description, id,):
         self.id = str(id)
         self.name = str(name)
         self.description = str(description)
+        self.context = {}
 
     def print(self):
         print("\n---------------------")
@@ -16,7 +17,8 @@ class Action:
         return {
         'id': self.id,
         'name': self.name,
-        'description': self.description
+        'description': self.description,
+        'context': self.context
         }
 
     @classmethod
