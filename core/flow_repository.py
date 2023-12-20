@@ -4,7 +4,7 @@ import yaml
 from core.flow import Flow
 
 class FlowRepository:
-    def __init__(self, storage_path='flows'):
+    def __init__(self, storage_path='storage/flows'):
         self.flows = []
         self.storage_path = storage_path
 
