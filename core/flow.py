@@ -1,4 +1,5 @@
 from typing import List
+from actions.action_factory import ActionFactory
 from actions.action import Action
 
 
@@ -42,5 +43,5 @@ class Flow:
         id = data.get('id')
         name = data.get('name')
         description = data.get('description')
-        actions = [Action.from_dict(action) for action in data.get('actions')]
+        actions = [ActionFactory().create_action(action) for action in data.get('actions')]
         return cls(str(id), str(name), str(description), actions)
